@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--dominique nzayisenga222010587--->
+    <button class="back-button"onclick="window.location.href='dashboardusers.html'">BACK</button>
+    <!--nzayisenga dominique-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style7.css">
+    <title>assignments Panel</title>
+</head>
+<body>
+    <h1>assignments Panel</h1>
+    
+    <!-- assignments Registration Form -->
+    <h2>Create assignments</h2>
+    <form method="post" action="landingassignments.php">
+       <form method="post" description="landingassignments.php">
+        <label for="course_id">course_id :</label><br>
+        <input type="number" name="course_id" required><br>
+        <label for="title">title:</label><br>
+        <input type="text" name="title" required><br>
+        <label for="description">description:</label><br>
+        <input type="text" name="description" required><br>
+        <label for="due_date">due_date :</label><br>
+        <input type="date" name="due_date" required><br>
+        <button type="submit" name="create">Create</button>
+    </form>
+             <h2>User assignments
+         </h2>
+     <form method="post" action="landingassignments.php">
+                    <input type="number" name="assignment_id" placeholder=" New assignment_id">
+                    <input type="number" name="newcourse_id" placeholder="New course_id">
+                    <input type="text" name="newtitle" placeholder="New title">
+                    <input type="text" name="newdescription" placeholder="New description">
+                    <input type="date" name="newdue_date" placeholder="New due_date">
+                    <button type="submit" name="update">Update</button>
+                    <button type="submit" name="delete">Delete</button>
+                    <button type="submit" name="read">read</button>
+                  
+                                </form>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/*nzayisenga dominique*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/p.jpg'); /* Set background image */
+    background-size: cover;
+    background-position: center;
+    background-color: #87ceeb; /* Sky blue background color */
+}
+
+header {
+    background-color: rgba(255, 20, 147, 0.6); /* Transparent pink background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(65, 105, 225, 0.8); /* Transparent royal blue background */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #4682b4; /* Steel blue hover color */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 215, 0, 0.8); /* Transparent gold background */
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #008000; /* Dark green */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #800000; /* Maroon hover color */
+}
+
+.setting {
+    background-color: #800080; /* Purple */
+    /* Other setting styles */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #f08080; /* Light coral background color */
+}
+
+section {
+    background-color: rgba(0, 255, 255, 0.6); /* Transparent cyan background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for section */
+}
+
+footer {
+    background-color: rgba(255, 69, 0, 0.6); /* Transparent orangered background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

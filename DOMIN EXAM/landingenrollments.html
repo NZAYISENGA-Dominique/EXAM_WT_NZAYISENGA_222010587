@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--dominique nzayisenga222010587--->
+    <button class="back-button"onclick="window.location.href='dashboardusers.html'">BACK</button>
+    <!--nzayisenga--->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style7.css">
+    <title>enrollments Panel</title>
+</head>
+<body>
+    <h1>enrollments Panel</h1>
+    
+    <!-- enrollments Registration Form -->
+    <h2>Create enrollments</h2>
+    <form method="post" action="landingenrollments.php">
+        <label for="user_id">user_id:</label><br>
+        <input type="number" name="user_id" required><br>
+        <label for="course_id">course_id:</label><br>
+        <input type="number" name="course_id" required><br>
+        <label for="enrollment_date">enrollment_date:</label><br>
+        <input type="date" name="enrollment_date" required><br>
+       <button type="submit" name="create">Create</button>
+    </form>
+             <h2>User enrollments
+         </h2>
+     <form method="post" action="landingenrollments.php">
+                    <input type="number" name="notificationid" placeholder=" New notificationid">
+                    <input type="number" name="newuser_id" placeholder="New user_id">
+                    <input type="number" name="newcourse_id" placeholder="New course_id">
+                    <input type="date" name="newenrollment_date" placeholder="New enrollment_date">
+                    <button type="submit" name="update">Update</button>
+                    <button type="submit" name="delete">Delete</button>
+                    <button type="submit" name="read">read</button>
+                  
+                                </form>
+</body>
+</html>
